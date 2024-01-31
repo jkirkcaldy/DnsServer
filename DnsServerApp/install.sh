@@ -4,7 +4,7 @@ dotnetDir="/opt/dotnet"
 
 if [ -d "/etc/dns/config" ]
 then
-	dnsDir="/etc/dns"
+	dnsDir="/config"
 else
     dnsDir="/opt/technitium/dns"
 fi
